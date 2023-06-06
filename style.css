@@ -1,0 +1,344 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main-section{
+    background: url(/images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    font-weight: 700;
+    color: black;
+}
+.main-section a, .nav-link{
+    color: black;
+}
+.nav-link:hover{
+    transform: scale(1.02);
+    color: white;
+}
+.first-heading{
+    font-size: 60px;
+}
+
+.navbar-nav{
+    padding-top: 30px;
+}
+.para-section{
+    color: darkgreen;
+}
+.card-style{
+    box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    cursor: pointer;
+}
+ .banner-section{
+    padding-top: 135px;
+    padding-bottom: 65px;
+ }
+ .togle::before{
+    display: none;
+ }
+ .card-img{
+    padding-right: 90px;
+ }
+ .sub-title h4{
+    color: darkgreen;
+    font-weight: 600;
+ }
+ .sub-title h1{
+    font-size: 50px;
+    font-weight: 800;
+ }
+ .sub-title p{
+    font-size: 25px;
+ }
+ .testimonial-section{
+    background-color: rgb(226, 232, 247);
+ }
+.card-formate{
+    display: flex;
+    justify-content: center;
+}
+.icon-image{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+/* Navbar CSS */
+.nav-item{
+    padding: 0 10px;
+}
+.mole{
+    color: darkgreen;
+}
+.test{
+    font-size: 50px;
+    font-weight: 800;
+}
+.title-card{
+    padding-left: 20px;
+    padding-top:50px ;
+}
+.set-card{
+    padding-top: 17rem;
+}
+.card-style:hover{
+   transform: scale(1.02)
+}
+.last-cards:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    cursor: pointer;
+}
+.new-cards:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    cursor: pointer;
+}
+.btn-success:hover{
+    transform: scale(1.02) ;
+    background: #b1f1b1;
+    background: linear-gradient(4deg,#b1f1b1 0%, rgba(171,208,171,0.32) 80%);
+    background: -webkit-linear-gradient(4deg,#b1f1b1 0%, rgba(171,208,171,0.32) 80%);
+    background: -moz-linear-gradient(4deg,#b1f1b1 0%, rgba(171,208,171,0.32) 80%);
+}
+.btn-dark:hover{
+    transform: scale(1.02);
+    background: #151615;
+    background: linear-gradient(7deg,#151615 0%, rgba(230,238,230,0.32) 80%);
+    background: -webkit-linear-gradient(7deg,#151615 0%, rgba(230,238,230,0.32) 80%);
+    background: -moz-linear-gradient(7deg,#151615 0%, rgba(230,238,230,0.32) 80%);
+}
+.nav-item, .nav-link :hover{
+    transform: scale(1.02);
+    color: white;
+}
+.unorder-list li{
+    font-size: 17px;
+}
+.footer-heading{
+    color: white;
+    margin-left: 12px;
+}
+.unorder-list{
+    color: white;
+}
+.unorder-list li:hover{
+    transform: scaleY(1.02);
+    color: #b1f1b1;
+    cursor: pointer;
+}
+.footer-section{
+    background: url(/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+
+}
+.heading-row{
+    color: white;
+}
+.last-row{
+    padding-top: 200px;
+}
+.banner::before{
+    content: url(/images/Circle-removebg-preview.png);
+    position: absolute;
+    left: -100px;
+}
+.banner::after{
+    content: url(/images/Blue_Circle-removebg-preview.png);
+    position: absolute;
+    left: -170px;
+}
+.main-section-2{
+    position: relative;
+}
+/* .banner-section::before{
+    content: url(/images/Circle-removebg-preview.png);
+    position: absolute;
+    right: -100px;
+} */
+.banner-section::after{
+    content: url(/images/images-removebg-preview.png);
+    position: absolute;
+    bottom: -700px;
+    right: 0%;
+}
+.card_section{
+    position: relative;
+}
+/* .card-styles::before{
+    content: url(/images/1-removebg-preview.png);
+    position: absolute;
+    right: 34px;
+    top: -338px;
+} */
+.card-styles::after{
+    content: url(/images/ball-removebg-preview.png);
+    position: absolute;
+    bottom: -628px;
+    left: -310px;
+}
+
+/* Testimonial Section */
+.next-section{
+    position: relative;
+}
+.sub-titles::before{
+    content: url(/images/Circle-removebg-preview.png);
+    position: absolute;
+    left: -100px;
+    top: 0%;
+}
+.sub-titles::after{
+    content: url(/images/Blue_Circle-removebg-preview.png);
+    position: absolute;
+    left: -170px;
+    bottom: -180px;
+}
+/* Testimonial section end */
+.latest-section{
+    position: relative;
+}
+.seudo-class::after{
+    content: url(/images/images-removebg-preview.png);
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+}
+
+.card-styles{
+    box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 9px 49px -8px rgba(0,0,0,0.29);
+    cursor: pointer;
+}
+.card-styles:hover{
+    transform: scale(1.02);
+}
+.check-color{
+    accent-color: green;
+    height: 20px;
+    width: 20px;
+}
+.wrapper label{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.form_btn{
+    text-align: center;
+}
+@media (max-width: 1400px){
+    .icons{
+        display: none;
+    }
+    .banner::after{
+        display: none;
+    }
+    .banner::before{
+        display: none;
+    }
+    .banner-section::after{
+        display: none;
+    }
+    .banner-section::before{
+        display: none;
+    }
+    .card-styles::after{
+        display: none;
+    }
+    .card-styles::before{
+        display: none;
+    }
+    .sub-titles::after{
+        display: none;
+    }
+    .sub-titles::before{
+        display: none;
+    }
+    .seudo-class::after{
+        display: none;
+    }
+    .form-btn{
+        transform: translateX(0px);
+    }
+}
+@media (max-width: 1199px){
+    .main-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-section-2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .new-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .next-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .latest-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-section{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 767px){
+    .set-card{
+        padding-top: 0%;
+    }
+    .wrapper label{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+@media (max-width: 767px){
+    .main-section{
+        background-size: contain;
+    }
+    .first-heading{
+        font-size: 30px;
+    }
+}
+@media (max-width: 576px){
+    .footer-section  li{
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 15px;
+    }
+    .card_section{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+}
